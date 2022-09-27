@@ -13,7 +13,7 @@ import { createViewport, createSession } from "@shapediver/viewer";
   // create a session
   const session = await createSession({
     ticket:
-      "319f14f08c1e67a874fd843acecfd321049772deb0cdb5a0dbb39385592a156e83730e45c5e7af5eab52e15b1e36d44a092f71ada1331e1935b0f25d9448af34d0add0bd5abf8984325b97ee9e6106b25216446d15a86bb18b40114df89d2f5909b08e8c8b9eeb-7516be37cb2d968a0b3c545baf3ae51e",
+      "3643dbd395e3024fb65c2f7b285e0143856897949ad748b0c42c2d36aae6904e2a09ef92c06da298888739d693b0ee7dd8481753a1dd8cbe554e3fcb831e066e69fbf7c35d5a61536c9b70b84017bc509d6c1d04bea2e379460c94169444951e905211caa13a76-18c97c4a7ad36b49f65c8972c96e8c1b",
     modelViewUrl: "https://sdeuc1.eu-central-1.shapediver.com",
     id: "mySession"
   });
