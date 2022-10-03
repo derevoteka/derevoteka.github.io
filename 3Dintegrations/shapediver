@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Интеграция shapediver</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>
+    Список изделий
+    </h1>
+    <h2>
+      <p><a href="https://derevoteka.github.io/circtable">Круглый стол</a></p>
+      <p><a href="https://derevoteka.github.io/Peregorodka">Перегородка Лисий Нос</a></p>
+    </h2>
+  </body>
+</html>
