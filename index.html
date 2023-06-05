@@ -1,16 +1,28 @@
+<!doctype html>
 <html>
-  <head>
-    <title>Главная страница</title>
-    <meta charset="UTF-8" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Hello WebXR!</title>
 
-  <body>
-    <h1>
-    Список изделий
-    </h1>
-    <h2>
-      <p><a href="https://derevoteka.github.io/circtable">Круглый стол</a></p>
-      <p><a href="https://derevoteka.github.io/Peregorodka">Перегородка Лисий Нос</a></p>
-    </h2>
-  </body>
+  <!-- three.js -->
+  <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
+</head>
+<body>
+
+<!-- Starting an immersive WebXR session requires user interaction.
+    We start this one with a simple button. -->
+<button onclick="activateXR()">Start Hello WebXR</button>
+<script>
+async function activateXR() {
+  // Add a canvas element and initialize a WebGL context that is compatible with WebXR.
+  const canvas = document.createElement("canvas");
+  document.body.appendChild(canvas);
+  const gl = canvas.getContext("webgl", {xrCompatible: true});
+
+  // To be continued in upcoming steps.
+}
+</script>
+</body>
 </html>
